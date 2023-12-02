@@ -67,5 +67,5 @@ function GetIdentifier(source)
 end
 
 function GetItemLabel(item)
-    return exports.ox_inventory:GetItem(source, item).label
+    return ESX.GetItemLabel(source, item).label
 end
